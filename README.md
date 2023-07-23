@@ -8,4 +8,4 @@ To build:
 - docker build build -t aiden-llama2-truss:latest
 
 To launch:
-- TODO
+- docker compose up
