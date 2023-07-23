@@ -5,7 +5,7 @@ This requires:
 
 To build:
 - python3 build-truss.py
-- docker build -t aiden-llama2-truss:latest
+- docker build build -t aiden-llama2-truss:latest
 
 To launch:
 - TODO

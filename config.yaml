@@ -2,7 +2,7 @@ environment_variables: {}
 external_package_dirs: []
 model_metadata: {}
 model_name: null
-python_version: py311
+python_version: py38
 requirements:
 - fairscale
 - numpy
