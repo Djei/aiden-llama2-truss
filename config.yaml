@@ -10,8 +10,8 @@ requirements:
 - torch
 resources:
   accelerator: null
-  cpu: 500m
-  memory: 512Mi
-  use_gpu: false
+  cpu: "2"
+  memory: 10Gi
+  use_gpu: true
 secrets: {}
 system_packages: []
