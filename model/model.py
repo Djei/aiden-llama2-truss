@@ -10,8 +10,8 @@ class Model:
         self._generator = None
 
     def load(self):
-        ckpt_dir = "../data/llama-2-7b/"
-        tokenizer_path = "../data/tokenizer.model"
+        ckpt_dir = "/llama/llama-7b-chat"
+        tokenizer_path = "/llama/tokenizer.model"
         
         self._generator = Llama.build(
             ckpt_dir=ckpt_dir,
