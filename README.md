@@ -8,4 +8,4 @@ To build:
 - docker build build -t aiden-llama2-truss:latest
 
 To launch:
-- docker compose up
+- docker run -v /home/ec2-user/llama:/llama -p 127.0.0.1:8080:8080 -t aiden-llama2-truss:latest

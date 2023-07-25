@@ -1,8 +1,0 @@
-version: '3.7'
-services:
-  aiden-llama2-truss:
-    image: aiden-llama2-truss:latest
-    volumes:
-      - /home/ec2-user/llama:/llama
-    ports:
-      - 8080:8080
