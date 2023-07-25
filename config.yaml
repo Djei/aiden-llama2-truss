@@ -15,3 +15,5 @@ resources:
   use_gpu: true
 secrets: {}
 system_packages: []
+environment_variables:
+  RANK: 1
