@@ -268,6 +268,7 @@ class Llama:
             )
             prompt_tokens.append(dialog_tokens)
 
+        print(f"generating tokens from prompt_tokens {prompt_tokens}")
         generation_tokens, generation_logprobs = self.generate(
             prompt_tokens=prompt_tokens,
             max_gen_len=max_gen_len,

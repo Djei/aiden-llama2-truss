@@ -25,14 +25,15 @@ class Model:
         with torch.no_grad():
             try:
                 dialogs = [
-                    {"role": "user", "content": f"{request.pop('prompt')}"}
+                    [{"role": "user", "content": f"{request.pop('prompt')}"}]
                 ]
+                print(f"Generating content for dialog {dialogs}")
                 results = self._generator.chat_completion(
                     dialogs,
                     max_gen_len=None,
                     temperature=0.6,
                     top_p=0.9,
                 )
-                return {"data": f"{result['generation']['content']}"}
+                return {"data": f"{results[0]['generation']['content']}"}
             except Exception as exc:
                 return {"status": "error", "data": None, "message": str(exc)}
