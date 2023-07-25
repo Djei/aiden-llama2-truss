@@ -1,3 +1,4 @@
+import torch
 from typing import Dict
 
 from model.llama_generation import Llama

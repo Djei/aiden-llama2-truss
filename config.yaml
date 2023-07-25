@@ -16,5 +16,5 @@ resources:
 secrets: {}
 system_packages: []
 environment_variables:
-  RANK: 1
+  RANK: 0
   WORLD_SIZE: 1
