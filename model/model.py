@@ -1,6 +1,6 @@
 from typing import Dict
 
-from model.generation import Llama
+from model.llama_generation import Llama
 
 class Model:
     def __init__(self, **kwargs) -> None:
