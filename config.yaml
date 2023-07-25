@@ -9,7 +9,7 @@ requirements:
 - sentencepiece
 - torch
 resources:
-  accelerator: null
+  accelerator: A10G
   cpu: "2"
   memory: 10Gi
   use_gpu: true
