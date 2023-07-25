@@ -4,7 +4,7 @@ This requires:
 - python3.8 minimum
 
 To build:
-- python3 build-truss.py
+- python3.8 build-truss.py
 - docker build build -t aiden-llama2-truss:latest
 
 To launch:
